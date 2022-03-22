@@ -1,5 +1,5 @@
 #load fastqc moulde
-moudle add fastqc/0.11.7
+module add fastqc/0.11.7
 
 #set in and out varibles
 OUTDIR=results/fastqc_untrimmed_reads
@@ -7,7 +7,7 @@ INPUT=data/untrimmed_fastq/*.fastq.gz
 
 
 #create outout directory if necessary
-mkdirr -p $OUTDIR
+mkdir -p $OUTDIR
 
 
 #run fastqc
