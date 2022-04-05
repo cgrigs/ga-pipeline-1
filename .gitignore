@@ -3,6 +3,10 @@
 slurm.*.out
 slurm.*.err
 
+data/ref_genome/*
+data/bam/*
+
+
 # History files
 .Rhistory
 .Rapp.history
